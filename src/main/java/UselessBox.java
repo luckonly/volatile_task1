@@ -14,7 +14,7 @@ public class UselessBox implements Runnable {
     public void turnOn() {
         if (!enabled.get()) {
             enabled.set(true);
-            System.out.println("Пользователь включил коробочку");
+            System.out.println("Пользователь включил коробочку!!!");
         }
 
     }
