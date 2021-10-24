@@ -3,7 +3,7 @@ public class User implements Runnable {
     UselessBox uselessBox;
 
     static final int TIMES_TO_PLAY = 5;
-    static final long TURNON_TIMER = 3000L;
+    static final long TURNON_TIMER = 4000L;
 
     public User(UselessBox uselessBox) {
         this.uselessBox = uselessBox;
